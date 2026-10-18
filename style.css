@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+/* Header */
+.cabecalho {
+    background-color: #000000 !important;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d4a017 !important;
+}
+
+.menu .nav-link {
+    color: #f0f0f0 !important;
+    font-size: 15px;
+}
+
+.menu .nav-link:hover {
+    color: #d4a017 !important;
+}
+
+/* Seção Hero */
+.hero {
+    padding: 60px 0;
+    background-color: #262626;
+}
+
+.hero img {
+    border: 3px solid #d4a017;
+}
+
+.hero-texto h1 {
+    font-size: 42px;
+    color: #d4a017;
+}
+
+/* Seção Sobre */
+.sobre {
+    padding: 60px 0;
+}
+
+.sobre h2 {
+    color: #d4a017;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d4a017;
+    padding-bottom: 10px;
+}
+
+.sobre p {
+    line-height: 1.6;
+}
+
+/* Seção Álbuns */
+.albuns {
+    padding: 60px 0;
+    background-color: #262626;
+}
+
+.albuns h2 {
+    color: #d4a017;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.album {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.album h3 {
+    margin-top: 12px;
+    color: #d4a017;
+}
+
+/* Seção Contato */
+.contato {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contato h2 {
+    color: #d4a017;
+    margin-bottom: 25px;
+}
+
+/* Footer */
+.rodape {
+    text-align: center;
+    padding: 25px 0;
+    background-color: #000000;
+    color: #888;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.redes-sociais a {
+    color: #d4a017;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.redes-sociais a:hover {
+    color: #f0f0f0;
+}
+/* Links dos cards e página de detalhes */
+.album a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.album a:hover h3 {
+    text-decoration: underline;
+}
+
+.detalhes {
+    padding: 60px 0;
+}
+
+.detalhes h1,
+.detalhes h2 {
+    color: #d4a017;
+}
